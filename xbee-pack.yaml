@@ -23,9 +23,7 @@ var:
   version: 2.4
 
 provision:
-  - url:
-      from: https://ftp.gnu.org/gnu/inetutils/inetutils-{{ .version }}.tar.xz
-      todir: "{{ .xbee.src }}"
+  - url: https://ftp.gnu.org/gnu/inetutils/inetutils-{{ .version }}.tar.xz
   - folder: "{{ .xbee.out }}/usr/sbin"
 
 build:
