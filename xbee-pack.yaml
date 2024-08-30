@@ -20,7 +20,8 @@ description: |
 
 
 var:
-  version: 2.4
+  xbee:
+    version: 2.4
 
 provision:
   - url: https://ftp.gnu.org/gnu/inetutils/inetutils-{{ .version }}.tar.xz
