@@ -1,7 +1,5 @@
 schema-version: 1.0
 
-type: builder
-
 description: |
   The Inetutils package contains programs for basic networking.
   Installed programs:
